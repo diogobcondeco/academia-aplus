@@ -3,7 +3,6 @@ import About from "@/components/About";
 import Values from "@/components/Values";
 import Services from "@/components/Services";
 import Schedule from "@/components/Schedule";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <Values />
       <Services />
       <Schedule />
-      <Footer />
     </div>
   );
 }
