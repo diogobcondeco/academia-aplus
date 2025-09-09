@@ -8,7 +8,7 @@ const currentYear = new Date().getFullYear();
 export default function Footer() {
   return (
     <footer
-      className="text-white  font-bold p-6 flex flex-col gap-6"
+      className="text-white font-bold p-6 flex flex-col gap-6 mt-6"
       style={{ backgroundColor: "#506642" }}
     >
       {/* Footer Attribution and Copyright */}
