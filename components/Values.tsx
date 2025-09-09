@@ -19,7 +19,7 @@ export default function Values() {
       <p className="text-lg text-gray-700 mb-4">
         Na {<AcademiaName />}, valorizamos:
       </p>
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-8 mb-4">
         {values.map((value) => (
           <Bubble
             key={value}
