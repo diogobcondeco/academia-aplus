@@ -2,7 +2,7 @@
 export default function AcademiaName() {
   return (
     <span className="font-bold">
-      Academia<sup>+</sup>
+      Academia A<sup>+</sup>
     </span>
   );
 }
