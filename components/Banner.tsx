@@ -7,7 +7,7 @@ export default function Banner() {
       style={{ backgroundColor: "#506642" }}
     >
       <img
-        src="/banner.png"
+        src="/images/banner.png"
         alt="Academia Banner"
         className="object-contain z-0"
         style={{
