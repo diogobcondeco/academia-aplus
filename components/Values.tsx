@@ -1,6 +1,4 @@
-import Title from "./Title";
-import Wrapper from "./Wrapper";
-import Bubble from "./Bubble";
+import ItemsSection from "./ItemsSection";
 
 export default function Values() {
   const values = [
@@ -13,21 +11,10 @@ export default function Values() {
   ];
 
   return (
-    <Wrapper>
-      <Title text="Valores" />
-      <p className="text-lg md:text-xl text-gray-700 mb-4">
-        Acreditamos que estes valores são essenciais para alcançar o sucesso
-        escolar e pessoal dos nossos alunos.
-      </p>
-      <div className="flex flex-wrap gap-2">
-        {values.map((value) => (
-          <Bubble
-            key={value}
-            text={value}
-            style={{ backgroundColor: "#506642", color: "#fff" }}
-          />
-        ))}
-      </div>
-    </Wrapper>
+    <ItemsSection
+      title="Valores"
+      description="Acreditamos que estes valores são essenciais para alcançar o sucesso escolar e pessoal dos nossos alunos."
+      items={values}
+    />
   );
 }
