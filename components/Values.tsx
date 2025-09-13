@@ -7,9 +7,7 @@ export default function Values() {
   const values = [
     "Confiança",
     "Dedicação",
-    "Simpatia",
-    // "Exigência com simpatia",
-    // "Respeito",
+    "Respeito",
     "Motivação",
     "Autoestima",
     "Autonomia",
