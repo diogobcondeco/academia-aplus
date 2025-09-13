@@ -7,7 +7,7 @@ import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-16">
       <Banner />
       <About />
       <SignUp />

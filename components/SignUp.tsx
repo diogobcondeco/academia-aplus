@@ -18,7 +18,7 @@ export default function SignUp() {
           href="https://forms.gle/zVu4q2C7Lw9gMMo4A"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-black font-bold py-3 px-6 rounded-lg text-lg hover:bg-gray-100 transition w-full md:w-auto"
+          className="inline-block bg-white text-black font-bold py-3 px-6 rounded-lg text-lg hover:bg-gray-100 hover:scale-110 transition w-full md:w-auto"
         >
           Preencher Formulário
         </a>

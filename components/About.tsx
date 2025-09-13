@@ -22,7 +22,6 @@ export default function About() {
       o sucesso torna-se mais leve e positivo.
     </>,
   ];
-
   return (
     <Wrapper className="px-4 lg:px-0">
       <Title text="Sobre nós" />

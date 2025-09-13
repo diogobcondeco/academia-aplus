@@ -1,12 +1,6 @@
 import { Icon } from "@iconify/react";
 
-type SocialNetworksProps = {
-  iconSizeClassName?: string;
-};
-
-export default function SocialNetworks({
-  iconSizeClassName = "text-2xl",
-}: SocialNetworksProps) {
+export default function SocialNetworks() {
   return (
     <div className="flex justify-center items-center gap-4">
       <a
@@ -15,7 +9,7 @@ export default function SocialNetworks({
         rel="noopener noreferrer"
         className="transition-transform hover:scale-110"
       >
-        <Icon icon="mdi:instagram" className={iconSizeClassName} />
+        <Icon icon="mdi:instagram" className="text-3xl md:text-4xl" />
       </a>
       <a
         href="https://www.facebook.com/share/17GLShq1pt/?mibextid=wwXIfr"
@@ -23,7 +17,7 @@ export default function SocialNetworks({
         rel="noopener noreferrer"
         className="transition-transform hover:scale-110"
       >
-        <Icon icon="mdi:facebook" className={iconSizeClassName} />
+        <Icon icon="mdi:facebook" className="text-3xl md:text-4xl" />
       </a>
     </div>
   );
