@@ -16,7 +16,7 @@ export default function Services() {
   return (
     <Wrapper>
       <Title text="Serviços" />
-      <p className="text-lg text-gray-700 mb-4">
+      <p className="text-lg md:text-xl text-gray-700 mb-4">
         Na {<AcademiaName />}, oferecemos uma variedade de serviços para atender
         às necessidades dos nossos alunos.
       </p>
@@ -25,7 +25,7 @@ export default function Services() {
           <Bubble
             key={service}
             text={service}
-            style={{ backgroundColor: "#d7f2c6", color: "#506642" }}
+            style={{ backgroundColor: "#506642", color: "#fff" }}
           />
         ))}
       </div>

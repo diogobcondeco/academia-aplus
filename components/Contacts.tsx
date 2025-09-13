@@ -12,7 +12,7 @@ export default function Contacts() {
         <div className="flex flex-col md:flex-row w-full gap-6">
           {/* Left side - Text */}
           <div className="w-full md:w-1/2">
-            <p className="text-lg text-gray-700">
+            <p className="text-lg md:text-xl text-gray-700">
               A {<AcademiaName />} encontra-se aberta de segunda a sexta-feira,
               das 7h30 às 19h30, para garantir que cada aluno encontra o horário
               que melhor se adapta às suas necessidades, e ao sábado das 9h às
@@ -23,7 +23,7 @@ export default function Contacts() {
           {/* Right side - Contact info */}
           <div className="w-full md:w-1/2 space-y-4">
             {/* Address */}
-            <p className="text-lg text-gray-700">
+            <p className="text-lg md:text-xl text-gray-700">
               <b>Morada:</b>{" "}
               <a
                 href="https://maps.app.goo.gl/XdwXHn8m8KxDwDW17"
@@ -36,7 +36,7 @@ export default function Contacts() {
             </p>
 
             {/* Phone */}
-            <p className="text-lg text-gray-700">
+            <p className="text-lg md:text-xl text-gray-700">
               <b>Telefone:</b>{" "}
               <a href="tel:263209100" className="underline">
                 263 209 100
@@ -44,7 +44,7 @@ export default function Contacts() {
             </p>
 
             {/* Email */}
-            <p className="text-lg text-gray-700">
+            <p className="text-lg md:text-xl text-gray-700">
               <b>Email:</b>{" "}
               <a
                 href="mailto:geralacademiaamais@gmail.com"

@@ -1,4 +1,3 @@
-import AcademiaName from "./AcademiaName";
 import Title from "./Title";
 import Wrapper from "./Wrapper";
 import Bubble from "./Bubble";
@@ -16,7 +15,7 @@ export default function Values() {
   return (
     <Wrapper>
       <Title text="Valores" />
-      <p className="text-lg text-gray-700 mb-4">
+      <p className="text-lg md:text-xl text-gray-700 mb-4">
         Acreditamos que estes valores são essenciais para alcançar o sucesso
         escolar e pessoal dos nossos alunos.
       </p>
@@ -25,7 +24,7 @@ export default function Values() {
           <Bubble
             key={value}
             text={value}
-            style={{ backgroundColor: "#d7f2c6", color: "#506642" }}
+            style={{ backgroundColor: "#506642", color: "#fff" }}
           />
         ))}
       </div>
