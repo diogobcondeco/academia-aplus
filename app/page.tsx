@@ -2,7 +2,7 @@ import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Values from "@/components/Values";
 import Services from "@/components/Services";
-import Schedule from "@/components/Schedule";
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <About />
       <Values />
       <Services />
-      <Schedule />
+      <Contacts />
     </div>
   );
 }
