@@ -24,7 +24,7 @@ export default function About() {
   ];
 
   return (
-    <Wrapper className="px-4 md:px-0">
+    <Wrapper className="px-4 lg:px-0">
       <Title text="Sobre nós" />
 
       <div className="space-y-6">

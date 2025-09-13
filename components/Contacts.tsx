@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 
 export default function Contacts() {
   return (
-    <Wrapper className="px-4 md:px-0">
+    <Wrapper className="px-4 lg:px-0">
       <Title text="Contactos" />
       <div className="flex flex-col w-full gap-6">
         {/* Top row: text + contact info */}
