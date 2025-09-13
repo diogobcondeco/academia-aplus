@@ -1,18 +1,18 @@
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import SignUp from "@/components/SignUp";
 import Values from "@/components/Values";
 import Services from "@/components/Services";
 import Contacts from "@/components/Contacts";
-import SignUp from "@/components/SignUp";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-8">
       <Banner />
       <About />
+      <SignUp />
       <Values />
       <Services />
-      <SignUp />
       <Contacts />
     </div>
   );

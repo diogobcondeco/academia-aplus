@@ -18,7 +18,7 @@ export default function ItemsSection({
   bubbleTextColor = "text-white",
 }: ItemsSectionProps) {
   return (
-    <Wrapper>
+    <Wrapper className="px-4 md:px-0">
       <Title text={title} />
       <p className="text-lg md:text-xl text-gray-700 mb-6">{description}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

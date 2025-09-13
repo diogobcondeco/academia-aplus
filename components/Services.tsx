@@ -32,30 +32,38 @@ export default function Services() {
   ];
 
   return (
-    <Wrapper>
-      <Title text="Serviços" />
-      <p className="text-lg md:text-xl text-gray-700 mb-6">
-        Na <AcademiaName />, oferecemos uma variedade de serviços para atender
-        às necessidades dos nossos alunos.
-      </p>
+    <section
+      className="text-white py-16 px-6 text-center"
+      style={{ backgroundColor: "#506642" }}
+    >
+      <Wrapper>
+        <Title text="Serviços" />
+        <p className="text-lg md:text-xl mb-6">
+          Na <AcademiaName />, oferecemos uma variedade de serviços para atender
+          às necessidades dos nossos alunos.
+        </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {services.map((service) => (
-          <div
-            key={service.text}
-            className="p-6 rounded-lg shadow hover:shadow-xl transition-transform hover:scale-105 min-h-[160px] flex flex-col items-center justify-center text-center"
-            style={{ backgroundColor: "#506642" }}
-          >
-            <Icon
-              icon={service.icon}
-              className="text-white text-3xl md:text-4xl mb-3"
-            />
-            <p className="text-white text-lg md:text-xl font-semibold">
-              {service.text}
-            </p>
-          </div>
-        ))}
-      </div>
-    </Wrapper>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {services.map((service) => (
+            <div
+              key={service.text}
+              className=" bg-white p-6 rounded-lg shadow hover:shadow-xl transition-transform hover:scale-105 min-h-[160px] flex flex-col items-center justify-center text-center"
+            >
+              <Icon
+                icon={service.icon}
+                className="text-3xl md:text-4xl mb-3"
+                style={{ color: "#506642" }}
+              />
+              <p
+                className="text-lg md:text-xl font-semibold"
+                style={{ color: "#506642" }}
+              >
+                {service.text}
+              </p>
+            </div>
+          ))}
+        </div>
+      </Wrapper>
+    </section>
   );
 }
