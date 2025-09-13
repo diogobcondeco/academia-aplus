@@ -20,7 +20,7 @@ export default function Services() {
         Na {<AcademiaName />}, oferecemos uma variedade de serviços para atender
         às necessidades dos nossos alunos.
       </p>
-      <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-8 mb-4">
+      <div className="flex flex-wrap gap-2">
         {services.map((service) => (
           <Bubble
             key={service}

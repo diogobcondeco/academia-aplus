@@ -7,7 +7,9 @@ export default function Values() {
   const values = [
     "Confiança",
     "Dedicação",
-    "Exigência com simpatia",
+    "Simpatia",
+    // "Exigência com simpatia",
+    // "Respeito",
     "Motivação",
     "Autoestima",
     "Autonomia",
@@ -20,7 +22,7 @@ export default function Values() {
         Acreditamos que estes valores são essenciais para alcançar o sucesso
         escolar e pessoal dos nossos alunos.
       </p>
-      <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-8 mb-4">
+      <div className="flex flex-wrap gap-2">
         {values.map((value) => (
           <Bubble
             key={value}

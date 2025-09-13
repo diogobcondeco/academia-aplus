@@ -8,7 +8,7 @@ interface BubbleProps {
 
 const Bubble: React.FC<BubbleProps> = ({ text, className = "", style }) => (
   <div
-    className={`inline-block rounded-full px-4 md:px-8 py-2 md:py-4 m-2 shadow-md font-semibold text-base transition-transform hover:scale-105 ${className}`}
+    className={`inline-block rounded-full px-4 md:px-4 py-2 md:py-2 m-1 shadow-md font-semibold text-base transition-transform ${className}`}
     style={style}
   >
     {text}
