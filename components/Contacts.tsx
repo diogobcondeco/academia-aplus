@@ -1,4 +1,5 @@
 import AcademiaName from "./AcademiaName";
+import SocialNetworks from "./SocialNetworks";
 import Title from "./Title";
 import Wrapper from "./Wrapper";
 

@@ -1,9 +1,6 @@
-"use client";
-
-import { Icon } from "@iconify/react";
-import AcademiaName from "./AcademiaName";
-
-const currentYear = new Date().getFullYear();
+import SocialNetworks from "./SocialNetworks";
+import Developer from "./Developer";
+import Copyright from "./Copyright";
 
 export default function Footer() {
   return (
@@ -13,30 +10,9 @@ export default function Footer() {
     >
       {/* Footer Attribution and Copyright */}
       <div className="text-center flex flex-col gap-2">
-        <div>
-          <a
-            href="https://www.instagram.com/academia_a_mais"
-            target="_blank"
-            className="flex justify-center items-center gap-1"
-          >
-            <Icon icon={"mdi:instagram"} className="text-2xl" />
-            academia_a_mais
-          </a>
-        </div>
-        <div className="text-sm">
-          Feito por{" "}
-          <a
-            href="https://diogobcondeco.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondary link"
-          >
-            diogobcondeco.com
-          </a>
-        </div>
-        <div className="text-sm">
-          &copy; {currentYear} {<AcademiaName />}. Todos os direitos reservados.
-        </div>
+        {<SocialNetworks />}
+        {<Developer />}
+        {<Copyright />}
       </div>
     </footer>
   );
