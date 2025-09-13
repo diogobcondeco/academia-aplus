@@ -6,10 +6,10 @@ import Bubble from "./Bubble";
 export default function Services() {
   const services = [
     "Explicações para o 2º e 3º ciclos",
-    "Explicações em grupo",
-    "Explicações individuais",
     "Apoio ao estudo",
-    "Preparação para exames nacionais do 9º ano",
+    "Preparação de exames nacionais",
+    "Métodos de estudo e organização",
+    "Apoio online",
     "Programas especiais nas férias de verão",
   ];
 
