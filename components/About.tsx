@@ -24,7 +24,7 @@ export default function About() {
   ];
   return (
     <Wrapper className="px-4 lg:px-0">
-      <Title text="Sobre nós" />
+      <Title text="Sobre Nós" />
 
       <div className="space-y-6">
         {paragraphs.map((text, index) => (
