@@ -17,7 +17,8 @@ export default function Values() {
     <Wrapper>
       <Title text="Valores" />
       <p className="text-lg text-gray-700 mb-4">
-        Na {<AcademiaName />}, valorizamos:
+        Acreditamos que estes valores são essenciais para alcançar o sucesso
+        escolar e pessoal dos nossos alunos.
       </p>
       <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-8 mb-4">
         {values.map((value) => (
@@ -28,10 +29,6 @@ export default function Values() {
           />
         ))}
       </div>
-      <p className="text-lg text-gray-700">
-        Acreditamos que esses valores são essenciais para o sucesso académico e
-        pessoal dos nossos alunos.
-      </p>
     </Wrapper>
   );
 }
