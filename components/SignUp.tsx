@@ -4,10 +4,7 @@ import Wrapper from "./Wrapper";
 
 export default function SignUp() {
   return (
-    <section
-      className="text-white py-16 px-6 text-center"
-      style={{ backgroundColor: "#506642" }}
-    >
+    <section className="bg-[#506642] text-white py-16 px-6 text-center">
       <Wrapper>
         {<Title text="Pré-Inscrição" />}
         <p className="text-lg md:text-xl mb-8">

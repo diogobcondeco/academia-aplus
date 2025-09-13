@@ -25,8 +25,7 @@ export default function Values() {
         {values.map((value) => (
           <div
             key={value.text}
-            className="text-white rounded-lg p-4 text-center shadow hover:shadow-lg transition hover:scale-105 min-h-[100px] flex flex-col items-center justify-center gap-2"
-            style={{ backgroundColor: "#506642" }}
+            className="bg-[#506642] text-white rounded-lg p-4 text-center shadow hover:shadow-lg transition hover:scale-105 min-h-[100px] flex flex-col items-center justify-center gap-2"
           >
             <Icon
               icon={value.icon}

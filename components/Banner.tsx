@@ -2,10 +2,7 @@ import AcademiaName from "./AcademiaName";
 
 export default function Banner() {
   return (
-    <div
-      className="w-full h-64 flex items-center justify-center"
-      style={{ backgroundColor: "#506642" }}
-    >
+    <div className="bg-[#506642] w-full h-64 flex items-center justify-center">
       <img
         src="/images/banner.png"
         alt="Academia Banner"

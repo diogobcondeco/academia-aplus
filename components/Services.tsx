@@ -32,10 +32,7 @@ export default function Services() {
   ];
 
   return (
-    <section
-      className="text-white py-16 px-6 text-center"
-      style={{ backgroundColor: "#506642" }}
-    >
+    <section className="bg-[#506642] text-white py-16 px-6 text-center">
       <Wrapper>
         <Title text="Serviços" />
         <p className="text-lg md:text-xl mb-6">
@@ -51,13 +48,9 @@ export default function Services() {
             >
               <Icon
                 icon={service.icon}
-                className="text-3xl md:text-4xl mb-3"
-                style={{ color: "#506642" }}
+                className="text-[#506642] text-3xl md:text-4xl mb-3"
               />
-              <p
-                className="text-lg md:text-xl font-semibold"
-                style={{ color: "#506642" }}
-              >
+              <p className="text-[#506642] text-lg md:text-xl font-semibold">
                 {service.text}
               </p>
             </div>
